@@ -53,8 +53,8 @@ public class EcommerceLoginSearchTest {
             pause(3);
 
             driver.findElement(By.id("gender-male")).click();
-            driver.findElement(By.id("FirstName")).sendKeys("Dharani");
-            driver.findElement(By.id("LastName")).sendKeys("Kumar");
+            driver.findElement(By.id("FirstName")).sendKeys("maha");
+            driver.findElement(By.id("LastName")).sendKeys("nisha");
             driver.findElement(By.id("Email")).sendKeys(email);
             driver.findElement(By.id("Password")).sendKeys(password);
             driver.findElement(By.id("ConfirmPassword")).sendKeys(password);
